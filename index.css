@@ -1,0 +1,246 @@
+
+#meme{
+    border: solid gray 2px;
+    width: 85vw;
+    margin: 75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    background-image: url('/images/backDrop.jpg');
+    background-repeat: no-repeat;
+    background-position: 19.8vw 10px;
+    background-size: 58% 26%;
+       
+}
+
+.meme-input{
+    margin-top: 10px;
+    width: 70%;
+    padding: 5px;
+    margin-left: 20vw;
+    margin-bottom: 5px;
+    
+}
+
+input{
+    border: solid gray 1px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px;
+    
+    margin-left: 0px;
+    width: 44vw;
+    font-size: 13px;
+}
+
+#mUrl{
+    margin-right: 0px;
+    width: 30vw;
+}
+
+#submit{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(162, 0, 255);
+    width: 14vw;
+    margin-left: 0px;
+    padding-left: 7px;
+    padding-right: 100px;
+}
+
+label{
+    font-size: 19px;
+    color: rgb(37, 37, 37);
+}
+
+.meme-output{
+    cursor: pointer;
+    width: 50%;
+    padding: 5px;
+    padding-top: 10px;
+    margin-left: 18vw;
+    font-size: 17px;
+    border: solid black 1px;
+    margin-bottom: 20px;
+    height: 55.5vh;
+    overflow: auto;
+    padding-left:7vw;
+    margin-top:2px;
+
+    padding-right:25px;
+}
+
+
+.meme-output > * {
+    border-bottom: solid grey 1px;
+    border-top: solid gray 1px;
+    border-radius: 20px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+    
+}
+
+.EditMemeButton {
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 15vw;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 9px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(248, 244, 244); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(45, 2, 85, 0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(39, 2, 56, 0.4); 
+}
+
+.timeOut{
+margin-left: 16vw;
+color: gray;
+}
+
+.memeURL{   
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.Ocaption{
+    margin-left: 15px;
+    margin-top: 10px;   
+    font-size: 20px;
+    font-style: italic;
+}
+.Oowner{
+    margin-top: 20px;
+    
+}
+
+.OwnerName{
+    font-size: 24px;
+    font-style: italic;
+}
+
+img{
+    /* max-width:60%;
+    max-height:50%;
+    min-width: 50%;
+    min-height: 100px; */
+    width:60%;
+    height: 40%;
+    border-radius: 14px;
+}
+/* 
+.ownerName{
+    width: 100px;
+}
+
+.timeOut{
+    width: 50px;
+} */
+
+
+.filterMemes{
+    margin-top: 10px;
+    margin-left: 28vw;
+}
+
+select{
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    margin-left: 5vw;
+}
+
+#memeId{
+    width: 20vw;
+    margin: 0;
+}
+
+#dateIdFrom{
+    width: 19vw;
+    margin: 0;
+}
+#dateIdTo{
+    width: 19vw;
+
+}
+
+#filterButton{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+.GeneUrl{
+ 
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 35vw;
+    margin-bottom: 10px;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #0b0f11;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 0.5s linear infinite;
+    margin-left: 40vw;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    
+    display: none;
+  }
+  https://pisum.photos/200/200
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .crioLogoDiv{
+    left: 41vw;
+    z-index: 1;
+    position: absolute;
+    top: 11.1vh;
+    display: none;
+    width: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .crioLogo{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+  }
+
+.emptyData{
+    padding-left: 40px;
+}
+

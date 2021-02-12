@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meme Stream</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body>
+
+<div id="meme">
+    <div class="meme-input">
+            <form id="form1">
+                
+                <label for="owner">Meme Owner</label><br>
+                <input type="text" name="MemeOwner" id="owner" placeholder="Enter Your Full Name" required><br>
+
+                <label for="caption">Caption</label><br>
+                <input type="text" name="MemeCaption" id="caption" placeholder="Be creative with your caption" required><br>
+
+                <label for="mUrl">Meme URL</label><br>
+                <input type="url" name="MemeUrl" id="mUrl" placeholder="Enter URL of your meme here" required>
+
+                <input type="submit" id="submit" value="Submit Meme">
+            </form>
+    </div>
+    
+    <button class="GeneUrl"> <a href="https://imgbb.com/" target="_blank">Get Image URL Here!!</a></button>
+    <div class="filterMemes">
+            <select id="filterType" name="filterType" >
+                <option value="">Filter Memes</option>
+                <option value="NoFilter">No Filters</option>
+                <option value="searchById">Search by Id</option>
+                <option value="searchByName">Search by Name</option>
+                <!-- <option value="timeInterval">Time Interval</option> -->
+            </select>
+            <input type="text" name="idNo" id="memeId" placeholder="Enter">
+            <button id="filterButton">Filter</button><br>
+            <input type="date" name="dateNo" id="dateIdFrom">
+            <input type="date" name="dateNo" id="dateIdTo">
+
+    </div>
+    <div class="meme-output">
+        <!-- Displaying the Meme content dynamically -->
+    </div>
+</div>
+<!-- Loader will display when Uploading and editing the memes -->
+<div class="loader"></div>
+<div class="crioLogoDiv"><img src="images/crioDo.png" class="crioLogo"></div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+<div>
+    <div class="Oowner">
+        <span class="OwnerName"><b>Nitish kumar Reddy</b></span>
+        <span class="timeOut">20:12:12</span>
+    </div>
+    <div class="Ocaption">Hi thi iaasd</div>
+    <div class="memeURL"><img src="https://www.w3schools.com/images/w3schools_green.jpg"></div>
+</div>
+
+<div>
+    <div class="Oowner">
+        <span class="OwnerName"><b>Nitish kumar Reddy</b></span>
+        <span class="timeOut">20:12:12</span>
+    </div>
+    <div class="Ocaption">Hi thi iaasd</div>
+    <div class="memeURL"><img src="https://www.w3schools.com/images/w3schools_green.jpg"></div>
+</div> -->
+
